@@ -1,6 +1,6 @@
 {
     "/login/*": {
-        "target":"https://inventarioextranet.herokuapp.com",
+        "target":"https://practicalproject1.herokuapp.com",
         "secure": true,
         "logLevel": "debug",
         "changeOrigin":true

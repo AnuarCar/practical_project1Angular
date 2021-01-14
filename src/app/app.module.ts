@@ -11,6 +11,7 @@ import { LoginsuccessComponent } from './loginsuccess/loginsuccess.component';
 import { Test1Component } from './test1/test1.component';
 import { AddingComponent } from './adding/adding.component';
 import { ListarComponent } from './listar/listar.component';
+import { ServiceService} from './adding/service.service';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,7 @@ import { ListarComponent } from './listar/listar.component';
     HttpClientModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [ServiceService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
