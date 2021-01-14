@@ -58,7 +58,7 @@ export class LoginComponent implements OnInit {
   }
 
   Listar(){
-    this._router.navigate(["Listar"]);
+    this._router.navigate(['/Listar']);
   }
 
 
