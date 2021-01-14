@@ -15,6 +15,7 @@ export class LoginComponent implements OnInit {
   user = new User();
   msg = '';
   url = 'enda';
+  app_name:string = 'CRUD';
 
   constructor(private _service :RegistrationService, private _router : Router) { }
 
@@ -54,6 +55,15 @@ export class LoginComponent implements OnInit {
   gotoregistration(){
         this._router.navigate(['/registration'])
     
+  }
+
+  Listar(){
+    this._router.navigate(["Listar"]);
+  }
+
+
+  Nuevo(){
+    this._router.navigate(["adding"]);
   }
 
  
